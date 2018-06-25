@@ -4,6 +4,7 @@
 # An access token is an object that describes the security context of a process or thread.
 # The information in a token includes the identity and privileges of the user account associated with the process or thread.
 # The security identifier (SID) for the user's account.SIDs for the groups of which the user is a member.
+
 # cnsumer key='PjnBK3XGym4ftdYnJmVO95678'
 # cunsumer secret='CYXfjBS5tEFXdFfzioLT13CFioSdB2hxN1qszrQvMKBlva1234'
 # access_token='	1011129079666335746-udUl85NhJMs5ELmiiAMCB1UO9y1234'
@@ -19,8 +20,7 @@
   
  
 # Q.2- Get the IP address of some common sites like Google, Facebook by using DNS lookup. 
-# Microsoft Windows [Version 10.0.14393]
-# (c) 2016 Microsoft Corporation. All rights reserved.
+#solution:
 
 # C:\Users\user\Desktop\assign,ent\cls2>nslookup google.com
 # Server:  UnKnown
@@ -70,7 +70,6 @@
           # 205.251.242.103
 
 
-# C:\Users\user\Desktop\assign,ent\cls2>
 
 # Q.3- Using Tweepy library try to extract tweets from Twitter.\
 import tweepy
