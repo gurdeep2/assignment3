@@ -28,35 +28,35 @@
 # root.mainloop()
 
 
- # Q3. Create a frame using tkinter with any label text and two buttons.One to exit and other to change the label to some other text.
-import tkinter
-from tkinter import *
-import sys
+ #Q3. Create a frame using tkinter with any label text and two buttons.One to exit and other to change the label to some other text.
+# import tkinter
+# from tkinter import *
+# import sys
 
-def exit():
-   sys.exit()
+# def exit():
+   # sys.exit()
 
-def display():
-    label.config(text='kuch b')
+# def display():
+    # label.config(text='kuch b')
     
 
-root=Tk()
-root.geometry("250x250")
+# root=Tk()
+# root.geometry("250x250")
 
-label=Label(root,text='heelo ji')
-label.pack()
+# label=Label(root,text='heelo ji')
+# label.pack()
 
-f1=Frame(root)
-f1.pack(side=TOP)
+# f1=Frame(root)
+# f1.pack(side=TOP)
 
-b1=Button(f1,text='EXIT',width=25,bg='red',fg='white',command=exit)
-b1.pack()
+# b1=Button(f1,text='EXIT',width=25,bg='red',fg='white',command=exit)
+# b1.pack()
 
-b2=Button(f1,text='click',width=25,bg='red',fg='white',command=display)
-b2.pack()
+# b2=Button(f1,text='click',width=25,bg='red',fg='white',command=display)
+# b2.pack()
 
 
-root.mainloop()
+# root.mainloop()
 
 
 #Q4.write a python program using tkinter interface to take an input in the gui program and print it.
